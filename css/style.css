@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Edu+QLD+Beginner:wght@400;500&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,700;1,100;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Cormorant+SC:wght@300;400;500;600;700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Edu+QLD+Beginner:wght@400;500&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,700;1,100;1,200;1,600&display=swap');
+
+:root {
+
+    --font:'Cookie', cursive;
+    --font1:'Cormorant SC', serif;
+    --color:purple;
+    --color1:black;
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  list-style: none;
+
+   
+
+}
+body{
+background:rgb(190, 158, 163);
+width: auto;
+height: auto;
+
+}
+/* pjesa e home start */
+.landing{
+   
+     background: #CFCAB8;
+    background: linear-gradient(to bottom left, #CFCAB8 50%, #D080FF 47%, #FFFFFF 100%) !important; 
+ 
+  
+}
+/* nav1 start*/
+.nav-top .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.nav-top .container .logo h1{
+    font-size: 60px;
+    margin-left: 20px;
+    font-family: var(--font);
+    text-transform:capitalize;
+    letter-spacing: 6px;
+}
+.nav-top .container .logo h1:hover{
+     border-bottom: 2px solid wheat;
+    color: var(--color);
+    padding: 15px;
+    border-radius: 20px;
+    transition: all 1s linear;
+}
+
+
+.nav-top .container .info{
+    padding: 10px;
+    
+    border-radius: 10px;
+    display:flex;
+    margin-right: 10px;
+    font-family: var(--font);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.nav-top .container .info .general p:last-child:hover {
+      color:var(--color);
+      font-size: 40px;
+      transition: all 2s ease-in;;
+}
+.nav-top .container  .info i {
+    font-size: 70px;
+    color:var(--color);
+}
+.nav-top .container  .info i:hover {
+  font-size: 40px;
+  color:black;
+  transition: all 2s linear;
+}
+/* nav1 end */
+/* nav2 start */
+.landing .nav-bottom .container nav ul {
+  padding-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.landing .nav-bottom .container nav ul li {
+   padding: 20px;
+ 
+    font-size: 40px;
+     font-family: var(--font);
+    text-transform: capitalize;
+}
+.landing .nav-bottom .container nav ul li:hover {
+    border-bottom: 2px solid black;
+    padding: 10px;
+    color:black;
+    transition: all .3s linear;
+}
+.landing .nav-bottom .container nav ul li a:hover{
+  color: #000000;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+/*nav2 end  */
+/* home start */
+
+.landing .main-landing .container 
+{ display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.landing .main-landing .container .left{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+.landing .main-landing .container .left .titles h2{
+    font-family:var(--font1);    
+     font-size:25px;
+     text-transform: uppercase;
+    padding: 10px;
+   
+     font-weight: 400;
+     text-shadow: 0px 28px 8px rgba(0,0,0,1);
+
+     
+}
+
+.landing .main-landing .container .left .titles h3 {
+    font-family: var(--font); 
+    font-size:30px;
+   
+    letter-spacing: 2.5px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    
+   
+
+}
+.landing .main-landing .container .left hr{
+    width: 80%;
+ margin: 25px auto;
+ 
+
+}
+.landing .main-landing .container .left button {
+    background-color:rgb(161, 100, 161);
+    padding: 15px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    border-radius: 200px 0px 116px 0px;
+    -webkit-border-radius: 200px 0px 116px 0px;
+    -moz-border-radius: 200px 0px 116px 0px;
+    border: 10px groove purple;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.landing .main-landing .container .left button:hover{
+    background-color: #000000;
+    color:violet;
+ 
+} 
+
+.landing .main-landing .container .right img {
+width:60%;
+border-radius: 200px 0px 116px 0px;
+-webkit-border-radius: 200px 0px 116px 0px;
+-moz-border-radius: 200px 0px 116px 0px;
+border: 10px groove purple;
+
+}
+.landing .main-landing .container .right img:hover {
+  transform: rotate(20deg);
+  transition: all .3s linear;
+  
+}
+
+
+/* home end */
+/* HEADER END */
+/* About us and team start */
+
+ .about  .about-section  {
+    margin-top: 50px;
+    text-align: center;
+ } 
+  .about .about-section h1 {
+    color:var(--color1);
+    font-family: var(--font1);
+    font-size:25px;
+     text-transform: uppercase;
+   padding-bottom:10px ;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    border-bottom: 10px groove purple;
+    display: inline-block;
+  } 
+  .about .about-section h1:hover{
+    background-color: black;
+    padding: 20px;
+    display: inline-block;
+    color:purple;
+    border-radius: 20px;
+    -webkit-transition: all 1.6s 0.4s ease;
+    -moz-transition: all 1.6s 0.4s ease;
+    -o-transition: all 1.6s 0.4s ease;
+    transition: all 1.6s 0.4s ease;
+  }
+
+  .about .about-section p {
+   font-family: var(--font1);
+    font-size:15px;
+   font-weight: bold;
+    line-height: 30px;
+    color: black;
+    text-shadow: 16px 11px 8px rgba(0,0,0,0.84);
+  }
+
+ .about .row{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.about .row .column img{
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 100%;
+   
+    border-radius: 200px 0px 116px 0px;
+    -webkit-border-radius: 200px 0px 116px 0px;
+    -moz-border-radius: 200px 0px 116px 0px;
+    border: 10px groove purple;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.column .card   h2{
+     padding-top: 10px;
+    color:black;
+    text-align: center;
+    text-shadow: 16px 11px 8px rgba(0,0,0,0.84);
+    font-family: var(--font);
+}
+
+  .button {
+    margin-top: 20px;
+   font-weight: 800;
+    border: none;
+   font-family: var(--font); 
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    background-color:purple;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    
+    border-radius: 200px 0px 116px 0px;
+-webkit-border-radius: 200px 0px 116px 0px;
+-moz-border-radius: 200px 0px 116px 0px;
+border: 10px groove purple;
+    
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }  
+
+/* abous us and out team end */
+/* start menu */
+
+  .section-title {
+    text-align: center;
+   
+  }
+  .section-title h2 {
+  
+    font-size: 50px;
+      color: purple;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 10px groove purple;
+   font-family: var(--font1);
+   font-weight: bold;
+
+  }
+.section-title p {
+    font-size: 20px;
+    margin:  30px 0;
+    font-family: var(--font);
+}
+  
+  .menus {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .menu-column h4 {
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: var(--font1);
+    color: purple;
+   
+  }
+
+
+  .single-menu {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .single-menu img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px dashed purple;
+    padding: 10px;
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    border: 10px groove #d4d4d4;
+    transition: .3s;
+  }
+  .single-menu:hover img{
+      transform: rotate(360deg);
+  }
+  .single-menu .menu-content h5 {
+    text-transform: capitalize;
+    font-family: var(--font);
+    font-size:35px;
+    margin-left: 10px;
+    
+    border-bottom: 2px solid rgb(88, 68, 88);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  .single-menu .menu-content h5 span {
+    color: black;
+    font-family: var(--font1);
+    margin-left: 40px;
+    
+   
+    
+  }
+  .single-menu .menu-content p {
+    color: purple;
+    
+    margin-left: 40px;
+    
+    font-weight: bold;
+    font-style: italic;
+  }
+  /* end menu */
+
+  /* Contact start */
+
+  form{
+    
+    width: 100%;
+    padding: 20px;
+    
+  
+  }
+  
+  form .title h2{
+    display: flex;
+    letter-spacing: 6px;
+    font-family: var(--font1);
+    justify-content: center;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    align-items: center;
+    font-size: 50px;
+    color: purple;
+    
+
+  }
+  
+  form .half{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  form .half .item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    width: 45%;
+  }
+  
+  form label{
+    display: block;
+    font-size: 30px;
+    letter-spacing: 3.5px;
+    margin-bottom: 16px;
+    font-family: var(--font1);
+    font-weight: bold;
+  }
+  
+  form .half .item input{
+    border-radius: 4px;
+    border: 10px groove var(--color);
+   
+    padding: 16px;
+    width: 100%;
+    height: 44px;
+    background: transparent;
+    font-size: 17px;
+  }
+  
+  form .full{
+    margin-bottom: 24px;
+  }
+  
+  form .full textarea{
+    background: transparent;
+    border-radius: 4px;
+    border: 10px groove var(--color);
+    
+    padding: 12px 16px;
+    width: 100%;
+    height: 200px;
+    font-size: 17px;
+  }
+  
+  form .action{
+    margin-bottom: 32px;
+  }
+  
+  form .action input{
+    background: transparent;
+    border-radius: 4px;
+
+    border: 5px groove var(--color);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    height: 44px;
+   font-family: var(--font1);
+    padding: 0 20px 0 22px;
+    margin-right: 10px;
+  }
+  
+  form .action {
+    text-align: center;
+  }
+  form .action input[type="submit"]{
+    background: purple;
+    color: black;
+
+  }
+  
+ /* contact end */
+ /*footer start  */
+
+  footer .bottom-details{
+    width: 100%;
+  }
+  footer .bottom-details .bottom_text{
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a{
+    font-family: var(--font);
+    font-size: 30px;
+    font-weight: 300;
+    color:purple;
+    padding: 20px;
+   
+  }
+  /* footer end */
+  /* Small devices (landscape phones, 576px and up start ) */
+  @media (min-width: 576px) {
+    .landing{
+      padding-top: 50px;
+    }
+
+    .nav-top .container {
+      
+      justify-content: center;
+      padding-top: 20px;
+      align-items: center;
+  }    
+  .landing .nav-bottom .container nav ul {
+    padding-top: 10px;
+    justify-content: center;
+}  
+.landing .main-landing .container {
+  flex-direction: column;
+} 
+.landing .main-landing .container .right img {
+       margin: 25px 100px 20px 100px;
+  }  
+.about .about-section p{
+    padding: 60px;
+  }
+
+
+  .about .row{
+    flex-direction: column;
+    margin:auto 50px;
+  }
+ .bottom-details .bottom_text span, .bottom-details .bottom_text a{
+         font-size: 20px;
+
+  }
+    }
+   /* Small devices (landscape phones, 576px and up end ) */
+  /* Medium devices (tablets, 768px and up start) */
+  @media (min-width: 768px) {
+    .landing .main-landing .container .right img {
+      margin-left:150px;
+    }
+   
+    .menus{
+      flex-direction: column;
+      align-items: center;
+    }
+ 
+   }
+   /* Medium devices (tablets, 768px and up end) */
+   /* Large devices (desktops, 992px and up start) */
+  @media (min-width: 992px) { 
+    .landing{
+    height: 700px;
+    }
+     .nav-top .container {
+      justify-content: space-between;
+    }
+    .landing .main-landing .container  {
+        flex-direction: row;
+    }
+    .landing .main-landing .container .left{
+      text-align: center;
+      margin-left: 200px;
+}
+.landing .main-landing .container .right img{
+      width: 45%;}
+    .about .row{
+    flex-direction: row;
+    }
+    .menus {
+      flex-direction: row;
+      flex-wrap: nowrap;
+     
+    }
+ 
+  
+   }
+   /* Large devices (desktops, 992px and up end) */
